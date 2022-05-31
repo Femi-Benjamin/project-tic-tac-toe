@@ -63,7 +63,7 @@ function App() {
     });
 
     if (filled) {
-      setResult({ winner: "No One", state: "Tie" });
+      setResult({ winner: "It's a Draw - no winner", state: "Tie" });
     }
   };
 

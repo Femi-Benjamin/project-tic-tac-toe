@@ -14,7 +14,7 @@
 .board {
   width: 500px;
   height: 500px;
-  background-color: aquamarine;
+  background-color: burlywood;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
@@ -41,5 +41,5 @@
 }
 
 .square:active {
-  background-color: #64f4c4;
+  background-color: brown;
 }
