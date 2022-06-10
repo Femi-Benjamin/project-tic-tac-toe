@@ -20,7 +20,7 @@ function App() {
 
   useEffect(() => {
     if (result.state !== "none") {
-      alert(`Game Finished! Winning Player: ${result.winner}`);
+      alert(`Game Over! Winning Player: ${result.winner}`);
       restartGame();
     }
   }, [result]);
